@@ -1,0 +1,184 @@
+@import "../../asset/scss/mixins/responsive";
+
+.buyPage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+
+  &:after,
+  &:before {
+    position: absolute;
+    content: "";
+    width: 452px;
+    height: 452px;
+    z-index: -1;
+  }
+
+  &:after {
+    top: 0;
+    left: 0;
+  }
+
+  &:before {
+    top: 0;
+    right: 0;
+    transform: scaleX(-1);
+  }
+
+  &.PLATINUM {
+    &:after,
+    &:before {
+      background-image: url("../../asset/svg/PLATINUM-vector.svg");
+    }
+  }
+
+  &.GOLD {
+    &:after,
+    &:before {
+      background-image: url("../../asset/svg/GOLD-vector.svg");
+    }
+  }
+
+  &.SILVER {
+    &:after,
+    &:before {
+      background-image: url("../../asset/svg/SILVER-vector.svg");
+    }
+  }
+
+  &.BRONZE {
+    &:after,
+    &:before {
+      background-image: url("../../asset/svg/BRONZE-vector.svg");
+    }
+  }
+}
+
+.starsWidth {
+  width: 100%;
+
+  .textTitle {
+    font-size: 40px
+  }
+}
+
+.boxPlus {
+  border: 1px dashed #d0d5df;
+  border-radius: 31px;
+  background: #ffffff;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--main-hover-bg);
+  }
+  .icon {
+    color: #bcc1cd;
+    background: #e8edf2;
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.boxTicket {
+  width: 290px;
+  height: 459px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 24px;
+}
+
+
+.modal {
+  border-radius: 35px !important;
+}
+
+.dialogModal {
+  max-width: 950px !important;
+}
+
+.titleModal {
+  border: none !important;
+
+  & > div {
+    color: #70798e !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 25px !important;
+  }
+}
+
+.bodyModal {
+  padding: 32px;
+}
+@include breakpoint(md) {
+
+  .starsWidth {
+    width: 50%;
+    .textTitle {
+      font-size: 30px
+    }
+  }
+
+}
+
+
+@include breakpoint(sm) {
+  .buyPage {
+    &.PLATINUM {
+      &:after,
+      &:before {
+        background-image: unset;
+      }
+    }
+
+    &.GOLD {
+      &:after,
+      &:before {
+        background-image: unset;
+      }
+    }
+
+    &.SILVER {
+      &:after,
+      &:before {
+        background-image: unset;
+      }
+    }
+
+    &.BRONZE {
+      &:after,
+      &:before {
+        background-image: unset;
+      }
+    }
+  }
+
+
+
+
+  .ticketsPage {
+    &:after,
+    &:before {
+      position: unset;
+    }
+  }
+  .starsWidth {
+    width: 40%;
+    .textTitle {
+      font-size: 25px
+    }
+  }
+
+}
+

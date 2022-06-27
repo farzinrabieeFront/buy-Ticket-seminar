@@ -1,0 +1,157 @@
+@import "../../asset/scss/mixins/responsive";
+
+.ticketsPage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+
+  &:after,
+  &:before {
+    position: absolute;
+    content: "";
+    width: 452px;
+    height: 452px;
+    z-index: -1;
+  }
+
+  &:after {
+    top: 0;
+    left: 0;
+  }
+
+  &:before {
+    top: 0;
+    right: 0;
+    transform: scaleX(-1);
+  }
+
+  &.PLATINUM {
+
+    &:after,
+    &:before {
+      background-image: url("../../asset/svg/PLATINUM-vector.svg");
+    }
+  }
+
+  &.GOLD {
+
+    &:after,
+    &:before {
+      background-image: url("../../asset/svg/GOLD-vector.svg");
+    }
+  }
+
+  &.SILVER {
+
+    &:after,
+    &:before {
+      background-image: url("../../asset/svg/SILVER-vector.svg");
+    }
+  }
+
+  &.BRONZE {
+
+    &:after,
+    &:before {
+      background-image: url("../../asset/svg/BRONZE-vector.svg");
+    }
+  }
+}
+
+.starsWidth {
+  width: 100%;
+  max-width: 361px;
+
+  .textTitle {
+    font-size: 40px
+  }
+}
+
+@include breakpoint(md) {
+  .starsWidth {
+    width: 50%;
+
+    .textTitle {
+      font-size: 30px
+    }
+  }
+
+}
+
+
+
+
+@include breakpoint(sm) {
+  .ticketsPage {
+
+    &:after,
+    &:before {
+      position: unset;
+    }
+  }
+
+  .buyPage {
+    &.PLATINUM {
+
+      &:after,
+      &:before {
+        background-image: unset;
+      }
+    }
+
+    &.GOLD {
+
+      &:after,
+      &:before {
+        background-image: unset;
+      }
+    }
+
+    &.SILVER {
+
+      &:after,
+      &:before {
+        background-image: unset;
+      }
+    }
+
+    &.BRONZE {
+
+      &:after,
+      &:before {
+        background-image: unset;
+      }
+    }
+  }
+
+
+
+
+  .ticketsPage {
+
+    &:after,
+    &:before {
+      position: unset;
+    }
+  }
+
+  .starsWidth {
+    width: 40%;
+
+    .textTitle {
+      font-size: 25px
+    }
+  }
+
+}
+
+.test {
+  background-color: red;
+  width: 891px;
+  height: 375px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 24px;
+  padding: 30px;
+}

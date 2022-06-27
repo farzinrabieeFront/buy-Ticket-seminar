@@ -1,0 +1,60 @@
+.colorText {
+  color: #26ab6d;
+}
+.posdotsImgTitle {
+  position: absolute;
+  top: -76px;
+  right: -67px;
+}
+.overlaySvgTitle {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: -23px;
+  top: 58px;
+  background: white;
+  opacity: 0.7;
+}
+.svgToolTipTittle {
+  position: absolute;
+  left: -34px;
+  top: -32px;
+}
+
+.formWrapper {
+  position: relative;
+  padding: 40px 0;
+  border: 1px solid #2fac5d;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+
+  &::before {
+    position: absolute;
+    top: -10px;
+    left: -200px;
+    content: url(../../asset/svg/Group.svg);
+  }
+
+  &::after {
+    position: absolute;
+    top: -10px;
+    right: -200px;
+    content: url(../../asset/svg/Group-1.svg);
+  }
+
+  .btn {
+    width: 100%;
+    position: relative;
+    background: #2fac5d;
+    padding: 12px 0;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+
+    .btnIcon {
+      position: absolute;
+      left: 10px;
+      transition: 0s;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.buttons {
+  width: 217px;
+  height: 48px;
+  background: #30AF5E;
+  box-shadow: 0px 8px 24px rgba(57, 172, 47, 0.4);
+  border-radius: 24px;
+  border: 0;
+  color: white;
+  position: relative;
+  transition: all 0.5s;
+}
+.buttons:hover{
+  background: #089e3f;
+
+  transition: all 0.5s;
+}
+.buttonsGray {
+  width: 217px;
+  height: 48px;
+  background: white;
+  //box-shadow: 0px 8px 24px rgba(57, 172, 47, 0.4);
+  border-radius: 24px;
+  border: 1px solid #BCC1CD;
+  color: #70798E;
+  position: relative;
+  transition: all 0.5s;
+}
+.buttonsGray:hover{
+  background: black;
+  transition: all 0.5s;
+}
+
+.svgBtnTop {
+  position: absolute;
+  top: -7px;
+  right: -8px;
+}
+
+.svgBtnBottom {
+  position: absolute;
+  bottom: -9px;
+  left: -11px;
+}
+

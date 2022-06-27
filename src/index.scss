@@ -1,0 +1,29 @@
+@import './asset/scss/index';
+.modal-lg{
+  max-width: 90% !important;
+}
+.btn-close{
+  margin: 0 !important;
+}
+.navbar-toggler{
+  background-color: white !important;
+}
+
+  //@media screen and (min-width: 360px) and (max-width: 991px){
+//  .navbar{
+//    background-color: white;
+//    .textHomeLink{
+//      color: black !important;
+//    }
+//  }
+//  .navbar-nav{
+//    background-color: white;
+//    .nav-link{
+//      color: black !important;
+//    }
+//  }
+//  .navbar-toggler{
+//    z-index: 1000;
+//  }
+//
+//}

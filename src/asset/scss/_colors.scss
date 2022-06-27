@@ -1,0 +1,175 @@
+$darkBlue: #223093;
+$lightBlue: #0bc0cf;
+$grayBlue: #70798e;
+$link: #0072ff;
+$gainsboro: #afb7cb;
+$lightGreen: #00c56e;
+$lightRed: #ff305b;
+$lighterBlue: #fafbfd;
+$gray: #707070;
+$yellow: #ffe428;
+$dark: #1e2026;
+$blue: #2a45e0;
+$orange: #ffc800;
+$pink: #ff5471;
+
+.dark {
+  color: $dark;
+}
+
+.pink {
+  color: $pink !important;
+}
+
+.lightBlue {
+  color: $lightBlue;
+}
+
+.star-gray {
+  color: #BDC5CC;
+}
+
+.bg-lightBlue {
+  background-color: $lightBlue;
+}
+
+.darkBlue {
+  color: $darkBlue;
+}
+
+.bg-darkBlue {
+  background-color: $darkBlue;
+}
+
+.grayBlue {
+  color: $grayBlue;
+}
+
+.link {
+  color: $link;
+}
+
+.gainsboro {
+  color: $gainsboro;
+}
+
+.lightGreen {
+  color: $lightGreen;
+}
+
+.bg-lightGreen {
+  background-color: $lightGreen;
+}
+
+.lightRed {
+  color: $lightRed;
+}
+
+.bg-lightRed {
+  background-color: $lightRed;
+}
+
+.dark {
+  color: $dark;
+}
+
+.lighterBlue {
+  color: $lighterBlue;
+}
+
+.bg-lighterBlue {
+  background-color: $lighterBlue;
+}
+
+.gray {
+  color: $gray;
+}
+
+.bg-gray {
+  background-color: $gray;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.blue {
+  color: $blue;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.orange {
+  color: $orange;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.text- {
+  &black {
+    color: $dark;
+  }
+
+  &tether {
+    color: #1ba27a;
+  }
+
+  &-success {
+    color: $lightGreen !important;
+  }
+
+  &-danger {
+    color: $lightRed !important;
+  }
+
+  &white {
+    color: #fff;
+  }
+  &green-1 {
+    color: var(--main-green) !important;
+  }
+  &red-1 {
+    color: var(--main-red);
+  }
+
+
+  &gray-1 {
+    color: var(--main-gray-1);
+  }
+
+  &gray-2 {
+    color: var(--main-gray-2);
+  }
+
+  &gray-3 {
+    color: var(--main-gray-3);
+  }
+
+  &gray-4 {
+    color: var(--main-gray-4);
+  }
+ 
+  &gray-5 {
+    color: var(--main-gray-5);
+  }
+  
+  &gray-05 {
+    color: var(--main-gray-05);
+  }
+
+  &blue {
+    color: var(--main-blue);
+  }
+
+  &warning {
+    color: #ffc800;
+  }
+
+  &link {
+    color: #2a45e0;
+  }
+}

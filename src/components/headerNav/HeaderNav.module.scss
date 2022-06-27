@@ -1,0 +1,37 @@
+@import "../../asset/scss/mixins/responsive";
+
+.headerNav {
+  width: 100%;
+  position: fixed !important;
+  z-index: 999;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s;
+  color: #fff;
+  max-width: unset !important;
+  min-height: 80px;
+  & div {
+    color: #fff;
+  }
+}
+
+.onScrollHeader {
+  background-color: #fff !important;
+  backdrop-filter: blur(70px) !important;
+  max-width: unset !important;
+  min-height: 80px;
+
+  color: var(--main-gray-5);
+  & div {
+    color: var(--main-gray-5);
+  }
+}
+.btnHamburger {
+  width: 50px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border: 2px solid gray;
+  border-radius: 5px;
+}

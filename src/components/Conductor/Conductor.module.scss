@@ -1,0 +1,203 @@
+.buttons {
+  width: 217px;
+  height: 48px;
+  background: #30AF5E;
+  box-shadow: 0px 8px 24px rgba(57, 172, 47, 0.4);
+  border-radius: 24px;
+  border: 0;
+  color: white;
+  position: relative;
+}
+
+.colText {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.colorText {
+  color: #26AB6D;
+}
+
+.posdotsImgTitle {
+  position: absolute;
+  top: -76px;
+  right: -67px;
+}
+
+.overlaySvgTitle {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: -23px;
+  top: 58px;
+  background: white;
+  opacity: 0.7;
+}
+
+.svgToolTipTittle {
+  position: absolute;
+  left: -34px;
+  top: -32px;
+
+
+  //position: absolute;
+  //left: -15px;
+  //top: -25px;
+
+
+}
+
+.svgBtnTop {
+  position: absolute;
+  top: -7px;
+  right: -8px;
+}
+
+.svgBtnBottom {
+  position: absolute;
+  bottom: -9px;
+  left: -11px;
+}
+.titleText{
+  font-size: 20px;
+  color: #515765;
+  font-weight: 500;
+
+
+}
+.textGreen{
+  font-size: 20px;
+  color: #26AB6D;
+  font-weight: 500;
+}
+//.Rows2::after{
+//  content: "";
+//  width: 1px;
+//  border: 1px dashed #2FAC5D;
+//  height: 76px;
+//  position: absolute;
+//  top: 15px;
+//  left: -27px;
+//}
+//.Rows::after{
+//
+//  content: "";
+//  width: 1px;
+//  border: 1px dashed #2FAC5D;
+//  height: 76px;
+//  position: absolute;
+//  top: 15px;
+//  left: -27px;
+//
+//}
+//.Rows::before{
+//
+//  content: "";
+//  width: 1px;
+//  border: 1px dashed #2FAC5D;
+//  height: 76px;
+//  position: absolute;
+//  bottom: 57px;
+//  right: -30px;
+//
+//
+//}
+.posDownIcon2{
+  position: absolute;
+  bottom: 40%;
+  right: -48px;
+  width: 5px !important;
+
+}
+.posDownIcon{
+  position: absolute;
+  bottom: 73%;
+  left: -30px;
+width: 5px !important;
+
+
+}
+.posDownIconSection2{
+
+  position: absolute;
+  bottom: 60%;
+  left: -30px;
+  width: 5px !important;
+
+
+}
+.boxes{
+  max-width: 196px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #2FAC5D;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #515765;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.boxes::after{
+  content: ("");
+  width: 45px;
+  border-top: 2px dashed #2FAC5D;
+  position: absolute;
+  right: 100%;
+}
+.boxesBack::before{
+  content: "";
+  width: 40px;
+  border: 1px dashed #2FAC5D;
+  position: absolute;
+  right: -40px;
+
+}
+.bozexNotBorder::after{
+  border: 0;
+
+
+}
+.posLine{
+  position: absolute;
+  bottom: 57px;
+
+}
+
+.posIcon{
+  position: absolute;
+  right: 104%;
+  // bottom: 5.5px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .boxes{
+    max-width: 196px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #2FAC5D;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #515765;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  .svgToolTipTittle {
+    position: absolute;
+    left: -15px;
+    top: -25px;
+  }
+}
